@@ -1,0 +1,60 @@
+*,
+*::after
+::before{
+    box-sizing:border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mrnu {
+    margin-right: 70 px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.body {
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-style: 14px;
+   line-height: 17px;
+   color: #131313;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    padding-left: 0;
+}
+
+.menu__link {
+    text-transform: uppercase;
+    padding: 42px 20px;
+    transition: all .5s;
+}
+
+.menu__link:hover{
+    background-color: #131313;
+    color: aliceblue;
+}
+
+
